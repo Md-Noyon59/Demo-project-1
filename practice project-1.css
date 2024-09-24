@@ -1,0 +1,332 @@
+
+  /* ostad-heading start */
+
+.ostad-heading{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+.color1{
+    color:red;
+}
+.color2{
+    color:rgb(43, 226, 101);
+}
+.color3{
+    color:rgb(15, 65, 230);
+}
+.ostad-module{
+    font-size: 20px;
+    text-align: center;
+}
+.color4{
+    color:darkorange;
+}
+.color5{
+    color:lawngreen;
+}
+.color6{
+    color:cornflowerblue;
+}
+.class-date{
+    font-size: 20px;
+    text-align: right;
+    color: rgb(179, 30, 87);
+    
+    
+}
+
+
+ /* ostad-heading end*/
+
+
+
+
+
+
+
+
+/* projeck 1  start  */
+
+nav.nav-ber{
+    display: flex;
+    justify-content: space-between;}
+    
+.nav-logo{
+
+    color: rgb(6, 144, 6);
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 20px;
+    align-items: center;
+
+
+
+}
+ul,li.nav-menu{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: auto;
+}
+p.nav-login{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    margin-right: 20px;
+    color: rgba(3, 38, 2, 0.88);
+   font-weight: bold;
+   margin-left: 40px;
+    
+   
+
+}
+
+
+/* hero part start */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-div{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+    
+}
+.left-1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.right-1{
+
+    width: 50%;
+    }
+
+.right-1{
+    background-image: url(image/bbb.png);
+    background-size: cover;
+
+}
+.div-head{
+ font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    line-height: 80px;
+    margin-bottom: 40px;
+    
+}
+.well{
+    color: green;
+}
+.div-peragrap{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: gray;
+    font-size: 35px;
+    
+}
+.read-button{
+    width: 170px;
+    background-color: red;
+    color: wheat;
+    border: none;
+    border-radius: 30px;
+    padding: 13px 25px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.p-copyright{
+    color:gray;
+    padding-top: 50px;
+}
+
+
+/* projeck 1 end  */
+
+
+
+
+
+
+/* flex strt */
+
+.d{
+ 
+    display: flex;
+   justify-content: center;
+  margin-top: 100px;
+  
+}
+
+
+.flex{
+    width: 1000px;
+    height: 700px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 0px;
+    position: relative;
+}
+.flex-2{
+    width: 350px;
+    height: 350px;
+    background-color:red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+    font-size: 40px;
+    
+}
+.bas{
+    width: 20px;
+    height: 1200px;
+    background-color: rgb(10, 198, 13);
+    align-items: center;
+    position: relative;
+   
+ 
+
+    
+  
+  
+}
+
+/* flex end */
+
+
+
+
+/* leyar flex start */
+
+
+section{
+    background-color: gray;
+    border: 5px solid black;
+    
+   
+    /* display: flex; */
+
+
+    /* margin-top: 150px;
+    margin-left: 90px; */
+}
+.box1{
+ color: black;
+ font-size: 40px;
+ text-align: center;
+ margin: 10px;
+ border: 5px solid red;
+ width: 1450px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.box2{
+    color: black;
+ font-size: 40px;
+ text-align: center;
+ border: 5px solid red;
+ margin: 10px;
+ width: 1450px;
+    height: 100px;
+    background-color: rgb(85, 255, 0);
+    /* display: flex; */
+}
+
+.box3{
+    color: black;
+ font-size: 40px;
+ text-align: center;
+ margin: 10px;
+ margin-top: 0px;
+ border: 5px solid red;
+ overflow: auto;
+
+ background-color: rgb(255, 0, 123);
+    width: 500px;
+    height: 768px;
+    /* height: 300px; */
+  
+    float: right;
+    /* margin-left: auto; */
+    
+    
+}
+
+.box4{
+    color: black;
+ font-size: 40px;
+ text-align: center;
+ margin: 10px;
+ border: 5px solid red;
+ background-color: rgb(60, 0, 255);
+ width: 925px;
+    height: 300px;
+  
+    
+  
+}
+.box5{
+    color: black;
+ font-size: 40px;
+ text-align: center;
+ margin: 10px;
+ border: 5px solid red;
+ background-color: rgb(233, 251, 103);
+ width: 925px;
+    height: 450px;
+  
+
+    
+  
+}
+.box6{
+    color: black;
+ font-size: 40px;
+ text-align: center;
+ margin: 10px;
+ margin-top: 0px;
+ border: 5px solid red;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(167, 12, 120);
+  float: right;
+
+}
+.box7{
+    color: black;
+ font-size: 40px;
+ text-align:center ;
+ margin: 10px;
+ width: 925px;
+    height: 500px;
+    background-color: rgb(222, 94, 8);
+    border: 5px solid red;
+}
+.box8{
+    color: black;
+ font-size: 40px;
+ text-align: center;
+ border: 5px solid red;
+ margin: 10px;
+ width: 1450px;
+    height: 200px;
+    background-color: rgb(12, 174, 76);
+}
+
+
+
+  
+  
+
